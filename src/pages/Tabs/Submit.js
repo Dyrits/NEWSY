@@ -1,7 +1,7 @@
 import React from "react";
 import {IonPage, IonHeader, IonToolbar, IonTitle} from '@ionic/react';
 
-const News = () => {
+const Submit = () => {
   return (
     <IonPage>
       <IonHeader>
