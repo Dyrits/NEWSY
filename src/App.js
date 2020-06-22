@@ -2,6 +2,7 @@ import React from 'react';
 import { Redirect, Route } from 'react-router-dom';
 import {IonApp, IonRouterOutlet, IonTabs, IonTabBar, IonTabButton, IonIcon, IonLabel} from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
+
 import News from './pages/Tabs/News';
 import Trending from './pages/Tabs/Trending';
 import Profile from './pages/Tabs/Profile';
