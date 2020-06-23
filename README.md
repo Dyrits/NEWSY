@@ -31,7 +31,7 @@ This means we can focus just on React while building and deploying a cross-platf
 In progress
 
 #### Last update
-21/06/2020
+23/06/2020
 
 #### Last update (README.md)
 21/06/2020
