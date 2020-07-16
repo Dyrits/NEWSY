@@ -5,13 +5,15 @@ function useAuth() {
   const [authUser, setAuthUser] = React.useState(null);
 
   React.useEffect(() => {
-    const unsubscribe = firebase.auth.onAuthStateChanged(user => {
-      if (user) {setAuthUser(user); }
+    const unsubscribe = firebase.auth.onAuthStateChanged((user) => {
+      if (user) { setAuthUser(user); }
       else { setAuthUser(null); }
-    })
-    return () => unsubscribe;
+    });
+
+    return () => unsubscribe();
   }, []);
+
   return [authUser, setAuthUser];
 }
 
-export default useAuth();
+export default useAuth;

@@ -1,5 +1,5 @@
 import React from "react";
-import {toast} from "../helpers/toast";
+import { toast } from "../helpers/toast";
 
 function useForm(initialState, validate, action) {
   const [values, setValues] = React.useState(initialState);
@@ -14,10 +14,11 @@ function useForm(initialState, validate, action) {
         setValues(initialState);
         setSubmitting(false);
       } else {
-        toast(Object.values(noErrors).join(" "));
+        toast(Object.values(errors).join(" "));
         setSubmitting(false);
       }
     }
+    // eslint-disable-next-line
   }, [errors]);
 
   function handleChange(event) {
@@ -38,8 +39,8 @@ function useForm(initialState, validate, action) {
     handleChange,
     values,
     setValues,
-    isSubmitting
-  }
+    isSubmitting,
+  };
 }
 
 export default useForm;
