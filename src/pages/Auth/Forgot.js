@@ -1,5 +1,4 @@
 import React from "react";
-// eslint-disable-next-line no-unused-vars
 import {IonButton, IonCol, IonContent, IonInput, IonItem, IonLabel, IonPage, IonRow, IonLoading} from "@ionic/react";
 
 import NavHeader from "../../components/Header/NavHeader";

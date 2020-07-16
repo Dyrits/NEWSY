@@ -12,6 +12,8 @@ import Signup from "./pages/Auth/Signup";
 import EditProfile from './pages/Auth/EditProfile';
 import Login from './pages/Auth/Login';
 import Forgot from './pages/Auth/Forgot';
+import useAuth from "./hooks/useAuth";
+import UserContext from "./contexts/UserContext";
 
 
 /* Core CSS required for Ionic components to work properly */
@@ -35,9 +37,13 @@ import './theme/variables.css';
 import {createOutline, newspaperOutline, personCircleOutline, searchOutline, trendingUpOutline} from "ionicons/icons";
 
 
-const App = () => (
+const App = () => {
+  const [user, setUser] = useAuth();
+
+  return (
   <IonApp>
     <IonReactRouter>
+      <UserContext.Provider value={{user, setUser}}>
       <IonTabs>
         <IonRouterOutlet>
           <Route path="/"
@@ -77,8 +83,10 @@ const App = () => (
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
+      </UserContext.Provider>
     </IonReactRouter>
   </IonApp>
-);
+  );
+};
 
 export default App;

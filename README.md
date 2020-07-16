@@ -28,10 +28,10 @@ This means we can focus just on React while building and deploying a cross-platf
 - This project has been made from scratch following specific instructions. 
 
 ### Status
-On hold
+In progress
 
 #### Last update
-24/06/2020
+16/07/2020
 
 #### Last update (README.md)
-21/06/2020
+16/07/2020
