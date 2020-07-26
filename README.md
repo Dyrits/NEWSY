@@ -1,11 +1,11 @@
 # Newsy
 
-## More about this project
+## About this project
 
 ### Related course
-SOLIDSAILS | LEARN REACT BY BUILDING A HACKER NEWS CLONE
+Solidsail | Learn React by Building a Hacker News Clone
 
-### Description of the project by SOLIDSAILS
+### Description (by Solidsail)
 Welcome! In this course, we’ll be building Newsy, a full-stack app that will teach you React by building Hacker News. We’ll be building a main news feed, a link page for upvoting and commenting, a trending page that sorts links by upvotes, a search page for searching links by text, and a comprehensive authentication system to gate access. 
 
 Newsy is an app that works on web, iOS, Android, Mac, and Windows. 
@@ -18,20 +18,18 @@ And the second is Firebase, a serverless framework that will handle our server-s
 
 This means we can focus just on React while building and deploying a cross-platform experience working on web, mobile, and desktop 
 
-### Technologies | Libraries | Frameworks | Tools  
+### Technologies | Frameworks | Tools  
 - JavaScript
 - React
 - Ionic
 - Firebase
 
 ### Details | Comments
-- This project has been made from scratch following specific instructions. 
+This project has been made from scratch coding along the related course. 
 
 ### Status
-In progress
+Abandonned
 
 #### Last update
-16/07/2020
-
-#### Last update (README.md)
-16/07/2020
+16/07/2020  
+(README | 26/07/2020)
